@@ -22273,16 +22273,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Janan\\Desktop\\janan\\Dysnomania\\Dysnomania\\Dysnomania\\Dysnomania.UWP\\Dysnomania.UWP.csproj",
+      "projectUniqueName": "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania.UWP\\Dysnomania.UWP.csproj",
       "projectName": "Dysnomania.UWP",
-      "projectPath": "C:\\Users\\Janan\\Desktop\\janan\\Dysnomania\\Dysnomania\\Dysnomania\\Dysnomania.UWP\\Dysnomania.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\Janan\\Desktop\\janan\\Dysnomania\\Dysnomania\\Dysnomania\\Dysnomania.UWP\\project.json",
+      "projectPath": "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania.UWP\\Dysnomania.UWP.csproj",
+      "projectJsonPath": "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\Users\\Janan\\Desktop\\janan\\Dysnomania\\Dysnomania\\Dysnomania\\Dysnomania\\Dysnomania.csproj": {
-              "projectPath": "C:\\Users\\Janan\\Desktop\\janan\\Dysnomania\\Dysnomania\\Dysnomania\\Dysnomania\\Dysnomania.csproj"
+            "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania\\Dysnomania.csproj": {
+              "projectPath": "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania\\Dysnomania.csproj"
             }
           }
         }
@@ -22290,7 +22290,7 @@
     },
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-      "Xamarin.Forms": "[2.3.4.247, )"
+      "Xamarin.Forms": "2.3.4.247"
     },
     "frameworks": {
       "uap10.0": {}

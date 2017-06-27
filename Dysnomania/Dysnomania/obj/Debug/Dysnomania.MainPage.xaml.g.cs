@@ -11,8 +11,7 @@
 namespace Dysnomania {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Janan\\Desktop\\janan\\Dysnomania\\Dysnomania\\Dysnomania\\Dysnomania\\MainPage" +
-        ".xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

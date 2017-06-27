@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:Dysnomania"
              x:Class="Dysnomania.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+	<Label Text="Dysnomania" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+
 
 </ContentPage>

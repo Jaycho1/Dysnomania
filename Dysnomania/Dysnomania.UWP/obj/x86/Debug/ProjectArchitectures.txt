@@ -1,0 +1,2 @@
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania.UWP\Dysnomania.UWP.csproj;x86
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania\Dysnomania.csproj;neutral
