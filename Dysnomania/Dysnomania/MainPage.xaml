@@ -5,17 +5,26 @@
              x:Class="Dysnomania.MainPage"
              Title="Dysnomania Home">
 
-	<Label Text="Dysnomania" 
-           HorizontalOptions="Center" />
-    
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="+" Clicked="">
-            <ToolbarItem.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource" Android="settings.png" WinPhone="settings.png" />
-            </ToolbarItem.Icon>
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>
+    <Image Source="DysnomaniaOfficial1.png" Margin="0" ></Image>
+
+    <!--<ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0"
+                Android="0, 0, 0, 0"
+                WinPhone="0, 0, 0, 0"/>
+    </ContentPage.Padding>-->
+
+    <ContentPage.Content>
+        <Grid RowSpacing="20" ColumnSpacing="20" Padding="20,0,20,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Button Text="Start" Grid.Row="0"></Button>
+        </Grid>
+    </ContentPage.Content>
 
 
-    
+
 </ContentPage>

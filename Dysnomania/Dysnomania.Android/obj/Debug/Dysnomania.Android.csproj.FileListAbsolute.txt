@@ -49,3 +49,4 @@ C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\obj\Debug\android\assets\Forms
 C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\obj\Debug\res\drawable\dysnomaniaofficial1.png
