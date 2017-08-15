@@ -1,31 +1,46 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Dysnomania"
-             x:Class="Dysnomania.MainPage"
-             Title="Dysnomania Home">
+             x:Class="Dysnomania.MainPage">
 
-    <Image Source="DysnomaniaOfficial1.png" Margin="0" ></Image>
+    <Grid BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Image Grid.Row="0" Source="images/DysnomaniaOfficial1.png"></Image>
 
-    <!--<ContentPage.Padding>
-        <OnPlatform x:TypeArguments="Thickness"
-                iOS="0, 20, 0, 0"
-                Android="0, 0, 0, 0"
-                WinPhone="0, 0, 0, 0"/>
-    </ContentPage.Padding>-->
+        <Label Grid.Row="1"
+               HorizontalTextAlignment="Center"
+               FontSize="30"
+               Text="Welcome! Choose from the options below"
+               TextColor="DarkGray"
+               ></Label>        
 
-    <ContentPage.Content>
-        <Grid RowSpacing="20" ColumnSpacing="20" Padding="20,0,20,0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
-            <Button Text="Start" Grid.Row="0"></Button>
-        </Grid>
-    </ContentPage.Content>
+        <Button Grid.Row="2"
+                Text="Start"
+                BackgroundColor="Blue"
+                TextColor="White"
+                Margin="60,0,60,0"
+                ></Button>
+        <Button Grid.Row="3"
+                Text="Party-Play"
+                BackgroundColor="Blue"
+                TextColor="White" 
+                Margin="60,0,60,0"
+                ></Button>
+        <Button Grid.Row="4"
+                Text="Options"
+                BackgroundColor="Blue" 
+                TextColor="White"
+                Margin="60,0,60,20"
+                ></Button>
 
-    
-
+    </Grid>
 
 </ContentPage>
