@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\MyApp\Dysnomania\Dysnomania\Dysnomania.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-27T00:08:32.271</Modified>
+      <Modified>2017-07-19T02:18:23.809</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\MyApp\Dysnomania\Dysnomania\Dysnomania.UWP\bin\x86\Debug\Dysnomania.UWP.exe">
       <PackagePath>entrypoint\Dysnomania.UWP.exe</PackagePath>
-      <Modified>2017-06-27T00:08:27.255</Modified>
+      <Modified>2017-07-19T02:18:20.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janan\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -513,7 +513,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MyApp\Dysnomania\Dysnomania\Dysnomania\bin\Debug\Dysnomania.dll">
       <PackagePath>Dysnomania.dll</PackagePath>
-      <Modified>2017-06-27T00:08:21.851</Modified>
+      <Modified>2017-07-19T02:18:18.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MyApp\Dysnomania\Dysnomania\Dysnomania.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -696,7 +696,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\MyApp\Dysnomania\Dysnomania\Dysnomania.UWP\bin\x86\Debug\Core\Dysnomania.UWP.exe">
       <PackagePath>Dysnomania.UWP.exe</PackagePath>
-      <Modified>2017-06-27T00:08:32.265</Modified>
+      <Modified>2017-07-19T02:18:23.798</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
