@@ -1,7 +1,7 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
-    "UAP,Version=v10.0": {
+    "UAP,Version=v10.0.10240": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2455,7 +2455,7 @@
         "type": "project"
       }
     },
-    "UAP,Version=v10.0/win10-arm": {
+    "UAP,Version=v10.0.10240/win10-arm": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4939,7 +4939,7 @@
         "type": "project"
       }
     },
-    "UAP,Version=v10.0/win10-arm-aot": {
+    "UAP,Version=v10.0.10240/win10-arm-aot": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -5674,9 +5674,6 @@
       },
       "runtime.win10-arm-aot.runtime.native.System.IO.Compression/4.0.1": {
         "type": "package",
-        "compile": {
-          "runtimes/win10-arm-aot/lib/netcore50/_._": {}
-        },
         "runtime": {
           "runtimes/win10-arm-aot/lib/netcore50/clrcompression.dll": {}
         }
@@ -7462,7 +7459,7 @@
         "type": "project"
       }
     },
-    "UAP,Version=v10.0/win10-x64": {
+    "UAP,Version=v10.0.10240/win10-x64": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -9955,7 +9952,7 @@
         "type": "project"
       }
     },
-    "UAP,Version=v10.0/win10-x64-aot": {
+    "UAP,Version=v10.0.10240/win10-x64-aot": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -10693,9 +10690,6 @@
       },
       "runtime.win10-x64-aot.runtime.native.System.IO.Compression/4.0.1": {
         "type": "package",
-        "compile": {
-          "runtimes/win10-x64-aot/lib/netcore50/_._": {}
-        },
         "runtime": {
           "runtimes/win10-x64-aot/lib/netcore50/clrcompression.dll": {}
         }
@@ -12487,7 +12481,7 @@
         "type": "project"
       }
     },
-    "UAP,Version=v10.0/win10-x86": {
+    "UAP,Version=v10.0.10240/win10-x86": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -14980,7 +14974,7 @@
         "type": "project"
       }
     },
-    "UAP,Version=v10.0/win10-x86-aot": {
+    "UAP,Version=v10.0.10240/win10-x86-aot": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -15718,9 +15712,6 @@
       },
       "runtime.win10-x86-aot.runtime.native.System.IO.Compression/4.0.1": {
         "type": "package",
-        "compile": {
-          "runtimes/win10-x86-aot/lib/netcore50/_._": {}
-        },
         "runtime": {
           "runtimes/win10-x86-aot/lib/netcore50/clrcompression.dll": {}
         }
@@ -26361,10 +26352,10 @@
       "Portable.Xaml >= 0.16.0",
       "Xamarin.Forms >= 2.3.4.247"
     ],
-    "UAP,Version=v10.0": []
+    "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\Janan\\.nuget\\packages\\": {}
+    "C:\\Users\\jaycho\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
@@ -26372,9 +26363,19 @@
       "projectName": "Dysnomania.UWP",
       "projectPath": "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania.UWP\\Dysnomania.UWP.csproj",
       "projectJsonPath": "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania.UWP\\project.json",
+      "packagesPath": "C:\\Users\\jaycho\\.nuget\\packages\\",
+      "outputPath": "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania.UWP\\obj\\",
       "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "C:\\Users\\jaycho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
-        "uap10.0": {
+        "uap10.0.10240": {
           "projectReferences": {
             "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania\\Dysnomania.csproj": {
               "projectPath": "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania\\Dysnomania.csproj"
@@ -26385,14 +26386,11 @@
     },
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.4",
-      "Xamarin.Forms": "2.3.4.247",
-      "Portable.Xaml": {
-        "target": "Package",
-        "version": "[0.16.0, )"
-      }
+      "Portable.Xaml": "0.16.0",
+      "Xamarin.Forms": "2.3.4.247"
     },
     "frameworks": {
-      "uap10.0": {}
+      "uap10.0.10240": {}
     },
     "runtimes": {
       "win10-arm": {
