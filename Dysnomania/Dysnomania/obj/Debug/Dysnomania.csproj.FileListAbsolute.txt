@@ -28,3 +28,6 @@ C:\MyApp\Dysnomania\Dysnomania\Dysnomania\bin\Debug\Xamarin.Forms.Core.xml
 C:\MyApp\Dysnomania\Dysnomania\Dysnomania\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\MyApp\Dysnomania\Dysnomania\Dysnomania\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\MyApp\Dysnomania\Dysnomania\Dysnomania\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania\bin\Debug\Portable.Xaml.dll
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania\obj\Debug\Dysnomania.csproj.CoreCompileInputs.cache
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania\obj\Debug\Dysnomania.SinglePlay.xaml.g.cs

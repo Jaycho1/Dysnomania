@@ -50,3 +50,13 @@ C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\obj\Debug\android\assets\Xamar
 C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\obj\Debug\res\drawable\dysnomaniaofficial1.png
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\bin\Debug\Portable.Xaml.dll
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\bin\Debug\Xamarin.Android.Support.Annotations.dll
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\bin\Debug\Xamarin.Android.Support.Compat.dll
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\bin\Debug\Xamarin.Android.Support.Fragment.dll
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\bin\Debug\Xamarin.Android.Support.Transition.dll
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
+C:\MyApp\Dysnomania\Dysnomania\Dysnomania.Android\obj\Debug\Dysnomania.Android.csproj.CoreCompileInputs.cache
