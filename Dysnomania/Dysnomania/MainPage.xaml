@@ -23,20 +23,20 @@
                ></Label>        
 
         <Button Grid.Row="2"
-                Text="Start"
-                BackgroundColor="Blue"
+                Text="Single-Play"
+                BackgroundColor="#0046E7"
                 TextColor="White"
                 Margin="60,0,60,0"
                 ></Button>
         <Button Grid.Row="3"
                 Text="Party-Play"
-                BackgroundColor="Blue"
+                BackgroundColor="#0046E7"
                 TextColor="White" 
                 Margin="60,0,60,0"
                 ></Button>
         <Button Grid.Row="4"
                 Text="Options"
-                BackgroundColor="Blue" 
+                BackgroundColor="#0046E7" 
                 TextColor="White"
                 Margin="60,0,60,20"
                 ></Button>
