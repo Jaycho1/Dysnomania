@@ -10,53 +10,55 @@
                 WinPhone="0, 0, 0, 0" />
     </ContentPage.Padding>
 
-    <Grid>
+    <Grid BackgroundColor="White">
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
+        <!--<Grid.ColumnDefinitions>
             <ColumnDefinition Width="5*"></ColumnDefinition>
             <ColumnDefinition Width="5*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>-->
 
-        <StackLayout Grid.Row="0" Grid.Column="0" Orientation="Vertical" BackgroundColor="White" >
+        <StackLayout Orientation="Vertical" BackgroundColor="White">
 
-            <Label Text="Choose a Category" FontSize="Large" TextColor="DarkGray" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-            <Picker x:Name="ddlCategory" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="DarkGray">
+            <Label Grid.Row="0" Text="Choose a Category" FontSize="Large" TextColor="DarkGray" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            <Picker Grid.Row="0" x:Name="ddlCategory" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="DarkGray">
                 <Picker.Items>
-                    <x:String>A</x:String>
-                    <x:String>B</x:String>
-                    <x:String>C</x:String>
-                    <x:String>D</x:String>
-                    <x:String>E</x:String>
-                    <x:String>F</x:String>
-                    <x:String>G</x:String>
-                    <x:String>H</x:String>
-                    <x:String>I</x:String>
-                    <x:String>J</x:String>
-                    <x:String>K</x:String>
-                    <x:String>L</x:String>
-                    <x:String>M</x:String>
-                    <x:String>N</x:String>
-                    <x:String>O</x:String>
-                    <x:String>P</x:String>
-                    <x:String>Q</x:String>
-                    <x:String>R</x:String>
-                    <x:String>S</x:String>
-                    <x:String>T</x:String>
-                    <x:String>U</x:String>
-                    <x:String>V</x:String>
-                    <x:String>W</x:String>
-                    <x:String>X</x:String>
-                    <x:String>Y</x:String>
-                    <x:String>Z</x:String>
+                    <x:String x:Name="ltrA">Words that start with - A</x:String>
+                    <x:String x:Name="ltrB">Words that start with - B</x:String>
+                    <x:String x:Name="ltrC">Words that start with - C</x:String>
+                    <x:String x:Name="ltrD">Words that start with - D</x:String>
+                    <x:String x:Name="ltrE">Words that start with - E</x:String>
+                    <x:String x:Name="ltrF">Words that start with - F</x:String>
+                    <x:String x:Name="ltrG">Words that start with - G</x:String>
+                    <x:String x:Name="ltrH">Words that start with - H</x:String>
+                    <x:String x:Name="ltrI">Words that start with - I</x:String>
+                    <x:String x:Name="ltrJ">Words that start with - J</x:String>
+                    <x:String x:Name="ltrK">Words that start with - K</x:String>
+                    <x:String x:Name="ltrL">Words that start with - L</x:String>
+                    <x:String x:Name="ltrM">Words that start with - M</x:String>
+                    <x:String x:Name="ltrN">Words that start with - N</x:String>
+                    <x:String x:Name="ltrO">Words that start with - O</x:String>
+                    <x:String x:Name="ltrP">Words that start with - P</x:String>
+                    <x:String x:Name="ltrQ">Words that start with - Q</x:String>
+                    <x:String x:Name="ltrR">Words that start with - R</x:String>
+                    <x:String x:Name="ltrS">Words that start with - S</x:String>
+                    <x:String x:Name="ltrT">Words that start with - T</x:String>
+                    <x:String x:Name="ltrU">Words that start with - U</x:String>
+                    <x:String x:Name="ltrV">Words that start with - V</x:String>
+                    <x:String x:Name="ltrW">Words that start with - W</x:String>
+                    <x:String x:Name="ltrX">Words that start with - X</x:String>
+                    <x:String x:Name="ltrY">Words that start with - Y</x:String>
+                    <x:String x:Name="ltrZ">Words that start with - Z</x:String>
                 </Picker.Items>
             </Picker>
 
-            <Label Text="Choose a Class" FontSize="Large" TextColor="DarkGray" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-            <Picker x:Name="ddlClass" BackgroundColor="DarkGray" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Label Grid.Row="1" Text="Choose a Class" FontSize="Large" TextColor="DarkGray" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            <Picker Grid.Row="1" x:Name="ddlClass" BackgroundColor="DarkGray" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                 <Picker.Items>
                     <x:String>Any</x:String>
                     <x:String>Nouns</x:String>
@@ -66,8 +68,18 @@
 
         </StackLayout>
 
-        <StackLayout Grid.Row="2" Grid.Column="0" Orientation="Vertical" BackgroundColor="White">
-            <Button Text="Shuffle" TextColor="DarkGray" BackgroundColor="#0046E7" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
+        <StackLayout Grid.Row="2" Orientation="Vertical" BackgroundColor="White">
+            <Label Text="Difficulty" FontSize="Large" TextColor="DarkGray" Margin="0,0,0,0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            <Slider  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></Slider>
         </StackLayout>
+
+        
+        
+
+        <StackLayout Grid.Row="4" Orientation="Vertical" BackgroundColor="White">
+            <Button Text="Shuffle" TextColor="White" BackgroundColor="#0046E7" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
+        </StackLayout>
+        
+        
     </Grid>
 </ContentPage>
