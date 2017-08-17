@@ -3,11 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Dysnomania.SinglePlay">
 
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0"
+                Android="0, 0, 0, 0"
+                WinPhone="0, 0, 0, 0" />
+    </ContentPage.Padding>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
-            <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="5*"></ColumnDefinition>
@@ -17,7 +24,7 @@
         <StackLayout Grid.Row="0" Grid.Column="0" Orientation="Vertical" BackgroundColor="White" >
 
             <Label Text="Choose a Category" FontSize="Large" TextColor="DarkGray" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-            <Picker x:Name="ddlCategory" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#0046E7">
+            <Picker x:Name="ddlCategory" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="DarkGray">
                 <Picker.Items>
                     <x:String>A</x:String>
                     <x:String>B</x:String>
@@ -48,8 +55,8 @@
                 </Picker.Items>
             </Picker>
 
-            <Label Text="Choose a Class" FontSize="Large" TextColor="DarkGray" Margin="0,30,0,0" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-            <Picker x:Name="ddlClass" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Label Text="Choose a Class" FontSize="Large" TextColor="DarkGray" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            <Picker x:Name="ddlClass" BackgroundColor="DarkGray" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                 <Picker.Items>
                     <x:String>Any</x:String>
                     <x:String>Nouns</x:String>
@@ -59,9 +66,8 @@
 
         </StackLayout>
 
-        <StackLayout Grid.Row="1" Grid.Column="0" Orientation="Vertical" BackgroundColor="#0046E7">
-            <Label Text="Shuffle" FontSize="Large" FontFamily="Arial" TextColor="DarkGray" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-            <Button Text="Shuffle" BackgroundColor="DarkGray" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+        <StackLayout Grid.Row="2" Grid.Column="0" Orientation="Vertical" BackgroundColor="White">
+            <Button Text="Shuffle" TextColor="DarkGray" BackgroundColor="#0046E7" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
         </StackLayout>
     </Grid>
 </ContentPage>

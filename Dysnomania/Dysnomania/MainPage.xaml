@@ -4,6 +4,13 @@
              xmlns:local="clr-namespace:Dysnomania"
              x:Class="Dysnomania.MainPage">
 
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0"
+                Android="0, 0, 0, 0"
+                WinPhone="0, 0, 0, 0" />
+    </ContentPage.Padding>
+
     <Grid BackgroundColor="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
