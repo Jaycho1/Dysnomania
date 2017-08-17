@@ -13,7 +13,7 @@ namespace Dysnomania
         {
             InitializeComponent();
 
-            MainPage = new Dysnomania.MainPage();
+            MainPage = new Dysnomania.SinglePlay();
         }
 
         protected override void OnStart()
