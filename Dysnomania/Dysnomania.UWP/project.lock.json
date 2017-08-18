@@ -26355,7 +26355,7 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\jaycho\\.nuget\\packages\\": {}
+    "C:\\Users\\Janan\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
@@ -26363,11 +26363,11 @@
       "projectName": "Dysnomania.UWP",
       "projectPath": "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania.UWP\\Dysnomania.UWP.csproj",
       "projectJsonPath": "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania.UWP\\project.json",
-      "packagesPath": "C:\\Users\\jaycho\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Janan\\.nuget\\packages\\",
       "outputPath": "C:\\MyApp\\Dysnomania\\Dysnomania\\Dysnomania.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Users\\jaycho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Janan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {
