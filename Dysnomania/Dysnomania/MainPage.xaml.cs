@@ -13,5 +13,10 @@ namespace Dysnomania
         {
             InitializeComponent();
         }
+
+        async void btnSinglePlay_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SinglePlay());
+        }
     }
 }

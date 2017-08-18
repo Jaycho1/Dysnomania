@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Dysnomania.SinglePlay">
-
+    
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness"
                 iOS="0, 20, 0, 0"
@@ -15,6 +15,7 @@
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
@@ -23,61 +24,127 @@
             <ColumnDefinition Width="5*"></ColumnDefinition>
         </Grid.ColumnDefinitions>-->
 
+        <!--THIS IS CATEGORY CHOOSER-->
         <StackLayout Orientation="Vertical" BackgroundColor="White">
 
-            <Label Grid.Row="0" Text="Choose a Category" FontSize="Large" TextColor="DarkGray" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-            <Picker Grid.Row="0" x:Name="ddlCategory" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="DarkGray">
+            <Picker Grid.Row="0"
+                    x:Name="ddlCategory"
+                    TextColor="#0046E7"
+                    Title="Choose a Category"
+                    Margin="25,20,25,0"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand">
                 <Picker.Items>
-                    <x:String x:Name="ltrA">Words that start with - A</x:String>
-                    <x:String x:Name="ltrB">Words that start with - B</x:String>
-                    <x:String x:Name="ltrC">Words that start with - C</x:String>
-                    <x:String x:Name="ltrD">Words that start with - D</x:String>
-                    <x:String x:Name="ltrE">Words that start with - E</x:String>
-                    <x:String x:Name="ltrF">Words that start with - F</x:String>
-                    <x:String x:Name="ltrG">Words that start with - G</x:String>
-                    <x:String x:Name="ltrH">Words that start with - H</x:String>
-                    <x:String x:Name="ltrI">Words that start with - I</x:String>
-                    <x:String x:Name="ltrJ">Words that start with - J</x:String>
-                    <x:String x:Name="ltrK">Words that start with - K</x:String>
-                    <x:String x:Name="ltrL">Words that start with - L</x:String>
-                    <x:String x:Name="ltrM">Words that start with - M</x:String>
-                    <x:String x:Name="ltrN">Words that start with - N</x:String>
-                    <x:String x:Name="ltrO">Words that start with - O</x:String>
-                    <x:String x:Name="ltrP">Words that start with - P</x:String>
-                    <x:String x:Name="ltrQ">Words that start with - Q</x:String>
-                    <x:String x:Name="ltrR">Words that start with - R</x:String>
-                    <x:String x:Name="ltrS">Words that start with - S</x:String>
-                    <x:String x:Name="ltrT">Words that start with - T</x:String>
-                    <x:String x:Name="ltrU">Words that start with - U</x:String>
-                    <x:String x:Name="ltrV">Words that start with - V</x:String>
-                    <x:String x:Name="ltrW">Words that start with - W</x:String>
-                    <x:String x:Name="ltrX">Words that start with - X</x:String>
-                    <x:String x:Name="ltrY">Words that start with - Y</x:String>
-                    <x:String x:Name="ltrZ">Words that start with - Z</x:String>
+                    <x:String x:Name="ltrA">Words that begin with - A</x:String>
+                    <x:String x:Name="ltrB">Words that begin with - B</x:String>
+                    <x:String x:Name="ltrC">Words that begin with - C</x:String>
+                    <x:String x:Name="ltrD">Words that begin with - D</x:String>
+                    <x:String x:Name="ltrE">Words that begin with - E</x:String>
+                    <x:String x:Name="ltrF">Words that begin with - F</x:String>
+                    <x:String x:Name="ltrG">Words that begin with - G</x:String>
+                    <x:String x:Name="ltrH">Words that begin with - H</x:String>
+                    <x:String x:Name="ltrI">Words that begin with - I</x:String>
+                    <x:String x:Name="ltrJ">Words that begin with - J</x:String>
+                    <x:String x:Name="ltrK">Words that begin with - K</x:String>
+                    <x:String x:Name="ltrL">Words that begin with - L</x:String>
+                    <x:String x:Name="ltrM">Words that begin with - M</x:String>
+                    <x:String x:Name="ltrN">Words that begin with - N</x:String>
+                    <x:String x:Name="ltrO">Words that begin with - O</x:String>
+                    <x:String x:Name="ltrP">Words that begin with - P</x:String>
+                    <x:String x:Name="ltrQ">Words that begin with - Q</x:String>
+                    <x:String x:Name="ltrR">Words that begin with - R</x:String>
+                    <x:String x:Name="ltrS">Words that begin with - S</x:String>
+                    <x:String x:Name="ltrT">Words that begin with - T</x:String>
+                    <x:String x:Name="ltrU">Words that begin with - U</x:String>
+                    <x:String x:Name="ltrV">Words that begin with - V</x:String>
+                    <x:String x:Name="ltrW">Words that begin with - W</x:String>
+                    <x:String x:Name="ltrX">Words that begin with - X</x:String>
+                    <x:String x:Name="ltrY">Words that begin with - Y</x:String>
+                    <x:String x:Name="ltrZ">Words that begin with - Z</x:String>
                 </Picker.Items>
             </Picker>
 
-            <Label Grid.Row="1" Text="Choose a Class" FontSize="Large" TextColor="DarkGray" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-            <Picker Grid.Row="1" x:Name="ddlClass" BackgroundColor="DarkGray" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <!--THIS IS ALSO A CATEGORY (CLASS) PICKER-->
+            <Picker Grid.Row="1"
+                    x:Name="ddlClass"
+                    TextColor="#0046E7"
+                    Title="Choose a Class"
+                    Margin="25,20,25,0"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand">
                 <Picker.Items>
                     <x:String>Any</x:String>
                     <x:String>Nouns</x:String>
                     <x:String>Verbs</x:String>
                 </Picker.Items>
             </Picker>
-
+            
         </StackLayout>
 
-        <StackLayout Grid.Row="2" Orientation="Vertical" BackgroundColor="White">
-            <Label Text="Difficulty" FontSize="Large" TextColor="DarkGray" Margin="0,0,0,0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
-            <Slider  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></Slider>
+        <!--THIS IS DIFICULTY SLIDER: EASY, MEDIUM, HARD-->
+        <StackLayout Grid.Row="2"
+                     Orientation="Vertical"
+                     BackgroundColor="White">
+            
+            <Label Text="Difficulty"
+                   FontSize="Large"
+                   TextColor="DarkGray"
+                   Margin="25,25,25,0"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   ></Label>
+            <Slider x:Name="sldDifficulty"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="18,0,18,0"
+                    Minimum="0"
+                    Maximum="3"
+                    ></Slider>
+
+            <Picker Grid.Row="3"
+                    x:Name="ddltimeLimitPicker"
+                    Title="Time Limit"
+                    TextColor="#0046E7"
+                    Margin="25,25,25,0"
+                    VerticalOptions="FillAndExpand"
+                    HorizontalOptions="FillAndExpand">
+                
+                <Picker.Items>
+                    <x:String>No Timer</x:String>
+                    <x:String>60 Seconds (Begginer)</x:String>
+                    <x:String>30 Seconds (Intermediate)</x:String>
+                    <x:String>25 Seconds (Intermediate)</x:String>
+                    <x:String>20 Seconds (Intermediate)</x:String>
+                    <x:String>15 Seconds (Expert)</x:String>
+                    <x:String>10 Seconds (Expert)</x:String>
+                    <x:String>5 Seconds (Insane)</x:String>    
+                </Picker.Items>
+            </Picker>
+            
         </StackLayout>
-
-        
         
 
-        <StackLayout Grid.Row="4" Orientation="Vertical" BackgroundColor="White">
-            <Button Text="Shuffle" TextColor="White" BackgroundColor="#0046E7" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Button>
+        <!--THIS IS THE SHUFFLE BUTTON THAT CHOOSES EVERYTHING AT RANDOM FOR YOU-->
+        <StackLayout Grid.Row="5" Orientation="Vertical" BackgroundColor="White">
+            
+            <Button x:Name="btnShuffle"
+                    Text="Shuffle"
+                    TextColor="White"
+                    BackgroundColor="#0046E7"
+                    Margin="25,0,25,0"
+                    VerticalOptions="Fill"
+                    HorizontalOptions="Fill"
+                    ></Button>
+            
+            <Button x:Name="btnStart"
+                    Text="Start" 
+                    TextColor="White"
+                    BackgroundColor="#0046E7"
+                    Margin="25,15,25,15"
+                    VerticalOptions="Fill"
+                    HorizontalOptions="Fill"
+                    ></Button>
+            
         </StackLayout>
         
         

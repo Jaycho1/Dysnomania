@@ -34,18 +34,22 @@
                 BackgroundColor="#0046E7"
                 TextColor="White"
                 Margin="60,0,60,0"
+                x:Name="btnSinglePlay"
+                Clicked="btnSinglePlay_Clicked"
                 ></Button>
         <Button Grid.Row="3"
                 Text="Party-Play"
                 BackgroundColor="#0046E7"
                 TextColor="White" 
                 Margin="60,0,60,0"
+                x:Name="btnPartyPlay"
                 ></Button>
         <Button Grid.Row="4"
                 Text="Options"
                 BackgroundColor="#0046E7" 
                 TextColor="White"
                 Margin="60,0,60,20"
+                x:Name="btnOptions"
                 ></Button>
 
     </Grid>
