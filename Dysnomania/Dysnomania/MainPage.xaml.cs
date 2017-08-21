@@ -12,6 +12,7 @@ namespace Dysnomania
         public MainPage()
         {
             InitializeComponent();
+            
         }
 
         async void btnSinglePlay_Clicked(object sender, EventArgs e)
